@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #FFFDD8;
+}
+
+a{
+    background: transparent;
+}
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px; 
+}
+
+.skip a:focus{
+    position: relative;
+    top: 0px;
+}
+
+header{
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+    font-size: 1em;
+}
+
+#logo{
+    display: flex;
+    font-family: 'Over the Rainbow', sans-serif;
+	width: 30%;
+	font-size: 35px;
+	font-weight: 400;
+	padding-left: 30px;
+	padding-top: 20px;
+	text-decoration: none;
+	color: black;
+}
+
+h1{
+    font-family: 'Abril Fatface', sans-serif;
+    font-size: 140px;
+    position: absolute;
+    bottom: 140px;
+    background-color:#FFFDD8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0;
+    width: 100%
+}
+
+
+.memoji img{
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    position: absolute;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    padding-right: 30px;
+    color: black
+}
+
+.nav_links{
+    padding-top: -220px;
+}
+
+a:visited{
+    color: inherit;
+}
+
+.current{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    margin-top: auto;
+}
+
+.footer-contents a{
+    margin: 8px;
+    color: white;
+
+}
+
+.footer-contents a:active, .footer-contents a:hover{
+    color: #FFFDD8;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content{
+    display: flex;
+    flex-flow: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+}
+
+.content #first-line{
+    font-size: 40px;
+    width: 100%;
+}
+
+.content img{
+    margin-top: 10px;
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    padding: 20px 120px;
+    line-height: 1.2;
+    display: flex;
+    flex-direction: column;
+}
+
+#qualifications{
+    font-size: 28px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
