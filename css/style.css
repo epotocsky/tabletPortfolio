@@ -1,9 +1,13 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body{
     background-color: #FFFDD8;
+    min-height: 400px;
+    margin-bottom: 100px;
+    clear: both;
 }
 
 a{
@@ -24,7 +28,7 @@ a{
     top: 0px;
 }
 
-header{
+ul{
     font-family: 'Alegreya Sans SC', sans-serif;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     font-size: 1em;
@@ -42,25 +46,24 @@ header{
 	color: black;
 }
 
-h1{
+#name-mobile{
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 140px;
-    position: absolute;
-    bottom: 140px;
-    background-color:#FFFDD8;
+    font-size: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 0;
-    width: 100%
+    padding-top: 10px;
 }
 
 
 .memoji img{
-    max-height: 240px;
+    max-height: 250px;
     width: auto;
     height: auto;
     position: absolute;
+    display: block;
+    margin: 0 auto;
+    right: 25%;
 }
 
 a{
@@ -88,6 +91,7 @@ a:visited{
 .current{
     font-weight: bold;
     font-size: 25px;
+    text-decoration: underline;
 }
 
 footer{
@@ -102,15 +106,13 @@ footer{
 }
 
 .footer-contents a{
+    font-size: 1rem;
     margin: 8px;
     color: white;
-
 }
 
-.footer-contents a:active, .footer-contents a:hover{
+.footer-contents a:hover{
     color: #FFFDD8;
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .content{
@@ -121,11 +123,6 @@ footer{
     position: relative;
 }
 
-.content #first-line{
-    font-size: 40px;
-    width: 100%;
-}
-
 .content img{
     margin-top: 10px;
     width: 50%;
@@ -133,12 +130,34 @@ footer{
     margin-bottom: 10px;
 }
 
-p {
-    font-size: 1rem;
-    padding: 20px 120px;
+p{
+    font-size: 1rem; 
+    font-family: 'Outfit', sans-serif;
+}
+
+#aboutme{
+    font-family: 'Outfit', sans-serif; 
+    font-size: 3rem;
+    padding-top: 15px;
+}
+
+#summary{
+    vertical-align: middle;
+    position: absolute;
+    margin: auto;
+    z-index: 1;
+    text-align: center;
+    bottom: 170px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#description {
+    padding: 20px 20px;
     line-height: 1.2;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #qualifications{
@@ -147,3 +166,5 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+
