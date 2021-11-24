@@ -25,20 +25,37 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header id="main">
       <a href=index.html id="logo">EJP</a>
-      <nav>
+      <nav id="mobile-nav">
         <ul class="nav_links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
-          <li><a href="resume.html"class="current">Resume</a></li>
+          <li><a href="resume.html" class="current">Resume</a></li>
           <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
-    <div class="content">
-        <p id="qualifications">Take a look at my resume to see all of the cool things that I have done!</p>
-        <img src="imgs/resume.jpg" alt="Resume">
-    </div>
+    <nav id="full-screen-nav">
+      <ul class="nav_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><div class="dropdown">
+          <button class=dropbtn>Professional</button>
+          <div class="dropdown2">
+            <a href="resume.html" class="current">Resume</a>
+            <a href="work.html">Work</a>
+          </div>
+        </li></div>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main class="container">
+      <div class="resume-content">
+        <h1 id="resume">RESUME</h1>
+        <p> Take a look at my resume to see some of the cool things that I have worked on!</p>
+        <p id="click"> Click to open in a new tab.</p>
+        <a href="https://drive.google.com/file/d/1V9LO03-qPDoEsaH5eNCKx0lDth51cJJ3/view?usp=sharing"><img src="imgs/resume.jpg" alt="Lizzie Potocsky Resume"></a>
+      </div>
 
     </main>
 

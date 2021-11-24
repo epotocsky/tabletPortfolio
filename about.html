@@ -25,16 +25,32 @@
     <div class="skip"><a href="#main">Skip to Main Content</a></div>
     <header id="main">
       <a href=index.html id="logo">EJP</a>
-      <nav>
+      <nav id="mobile-nav">
         <ul class="nav_links">
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html" class="current">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="work.html">Work</a></li>
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
-    <main class="main">
+    <nav id="full-screen-nav">
+      <ul class="nav_links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="current">About</a></li>
+        <li><div class="dropdown">
+          <button class=dropbtn>Professional</button>
+          <div class="dropdown2">
+            <a href="resume.html">Resume</a>
+            <a href="work.html">Work</a>
+          </div>
+        </li></div>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+   
+    <main class="container">
     <div class="content">
         <h1 id="aboutme"> ABOUT ME </h1>
         <img src="imgs/me.jpg" alt="Picture of me">
@@ -52,6 +68,5 @@
             <a href="mailto:epoto@umich.edu" aria-label="Email contact"><i aria-hidden="true" class="far fa-envelope fa-2x" title="Email contact"></i></a>
           </div>
     </footer>
-
     </body>
     </html>
